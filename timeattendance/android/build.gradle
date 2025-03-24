@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0' // ตัวอย่างเวอร์ชัน อาจต่างกันไปตามโปรเจกต์
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // ถ้าใช้ Kotlin
+        classpath 'com.google.gms:google-services:4.4.2' // เพิ่มตรงนี้
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.google.firebase:firebase-messaging:23.4.1'
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

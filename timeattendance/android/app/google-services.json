@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555247829735",
+    "project_id": "onesignal-1ae3a",
+    "storage_bucket": "onesignal-1ae3a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555247829735:android:53b4d7bd70a907887cd842",
+        "android_client_info": {
+          "package_name": "com.example.timeattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZsKbkmrKzBSc1Wamkh7v9R23k5mV7NLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

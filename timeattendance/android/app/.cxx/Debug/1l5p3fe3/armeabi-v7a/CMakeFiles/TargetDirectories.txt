@@ -1,0 +1,2 @@
+C:/Pss/Back Up 2025/03_05 timeattendance/android/app/.cxx/Debug/1l5p3fe3/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Pss/Back Up 2025/03_05 timeattendance/android/app/.cxx/Debug/1l5p3fe3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
